@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from '../body.module.css'
 
-export default function Blog() {
+export default function Body() {
   return (
-    <div>
-      <h1>Blog Page</h1>
+    <div className={styles.body}>
+      <h1>Body Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu

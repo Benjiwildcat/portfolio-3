@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from '../about.module.css'
 
 export default function About() {
   return (
-    <div>
+    <div className={styles.about}>
       <h1>About Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
