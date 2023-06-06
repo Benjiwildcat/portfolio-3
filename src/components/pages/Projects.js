@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from '../body.module.css'
+import styles from '../Projects.module.css'
 
-export default function Body() {
+export default function Projects() {
   return (
     <div className={styles.body}>
       <h1>Body Page</h1>
