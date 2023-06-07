@@ -6,12 +6,7 @@ export default function About() {
     <div className={styles.about}>
       <h1>About Page</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Hello, My name is Benjamin Richardson and I'm a full stack developer. Ever since the spring of 2023 I've been developing my skills in a multitude of languages such as JavaScript, CSS, and HTML. Throughout my life I've had an adoration for computer software and the people who put in the work to give us the user interfaces we interact with everyday.
       </p>
     </div>
   );

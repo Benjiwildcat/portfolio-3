@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from '../Projects.module.css'
+import styles from '../Project.module.css'
 
-export default function Projects() {
+export default function Project() {
   return (
-    <div className={styles.body}>
-      <h1>Body Page</h1>
+    <div className={styles.project}>
+      <h1>Projects</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
