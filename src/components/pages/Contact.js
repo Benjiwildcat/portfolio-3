@@ -6,7 +6,7 @@ export default function Contact() {
     <div className={styles.contact}>
       <h1>Contact Me</h1>
       <p>
-        Github: https://github.com/Benjiwildcat
+        LinkedIn: https://www.linkedin.com/in/benjamin-richardson-a0078a113/
         Email: benjiwildcat@gmail.com
         Phone: 214-375-3030
       </p>
