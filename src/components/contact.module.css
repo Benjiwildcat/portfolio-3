@@ -1,17 +1,18 @@
-html,
+/* html,
 body {
+    background-color: olive;
     height: 100%;
     margin: 0%;
     padding: 0%;
 
-}
+} */
 
-body {
+.Contact {
     background-color: rgb(92, 112, 80);
+    height: 100%;
 }
 
 .contactInfo {
-    background-color: rgb(92, 112, 80);
     display: flex;
     justify-content: space-between;
     align-items: center;
