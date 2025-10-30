@@ -1,41 +1,27 @@
-/* html,
-body {
-    background-color: olive;
-    height: 100%;
-    margin: 0%;
-    padding: 0%;
-
-} */
-
-.Contact {
-    background-color: rgb(92, 112, 80);
-    height: 100%;
+:global body {
+    background-color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-.contactInfo {
+.header {
+    color: red;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-top: dotted gray 1px;
+    border-bottom: dotted gray 1px;
+    font-size: small;
+}
+
+.info {
+    height: 350px;
+    font-size: large;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 100;
-    padding: 20px;
-    box-sizing: border-box;
-
-}
-
-.linkedIn {
+    color: green;
     flex-basis: 30%;
-    text-align: center;
-    color: white;
-}
-
-.email {
-    flex-basis: 30%;
-    text-align: center;
-    color: white;
-}
-
-.phone {
-    flex-basis: 30%;
-    text-align: center;
-    color: white;
+    border: 1px dashed magenta;
 }
