@@ -7,9 +7,9 @@ export default function Contact() {
 
     <><title>Contact Me</title><div className={styles.container}>
       <div className={styles.header}>
-        <h2>
+        <h1>
           Thank You for looking at my portfolio!
-        </h2>
+        </h1>
       </div>
       <div>
         <div>

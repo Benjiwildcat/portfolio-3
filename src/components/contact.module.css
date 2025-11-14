@@ -22,7 +22,7 @@
 }
 
 .info {
-    background-image: url('/src/components/media/pexels-eva-bronzini-7965294.jpg');
+    background-image: url('/src/components/media/pexels-eva-bronzini-7965294\ \(1\).jpg');
     height: 80vh;
     font-size: large;
     display: flex;
@@ -30,7 +30,7 @@
     justify-content: space-evenly;
     align-items: center;
     color: green;
-    flex-basis: 30%;
+    flex-basis: 5%;
 
 }
 
