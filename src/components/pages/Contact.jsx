@@ -13,7 +13,7 @@ export default function Contact() {
       </div>
       <div>
         <div>
-          <div id='content' className={styles.info}>
+          <div id='content' className={`${styles.info} ${styles.content}`}>
             <a className={styles.linkedin} href='https://www.linkedin.com/in/benjamin-richardson-a0078a113/' target='_blank' rel='noreferrer'>LinkedIn</a>
             <span id='email'>Email: benjiwildcat@gmail.com</span>
             <span id='phone'>Phone: 214-901-1174</span>
