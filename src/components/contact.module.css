@@ -1,6 +1,8 @@
 :global(body) {
     background-color: eggshell;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+
 }
 
 .header {
@@ -10,19 +12,18 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    border-top: solid royalblue 1px;
-    border-bottom: solid royalblue 1px;
+    height: 20vh;
     font-size: small;
 }
 
 .content {
-    background-image: url('/media/pexels-eva-bronzini-7965294.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .info {
-    height: 350px;
+    background-image: url('/src/components/media/pexels-eva-bronzini-7965294.jpg');
+    height: 80vh;
     font-size: large;
     display: flex;
     padding: 200px;
@@ -30,7 +31,7 @@
     align-items: center;
     color: green;
     flex-basis: 30%;
-    border: 1px solid royalblue;
+
 }
 
 
