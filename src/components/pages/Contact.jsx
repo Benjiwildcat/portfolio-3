@@ -11,19 +11,14 @@ export default function Contact() {
           Thank You for looking at my portfolio!
         </h2>
       </div>
-
       <div>
-
         <div>
-
-          <div className={styles.info}>
-            <a id='linkedin' href='https://www.linkedin.com/in/benjamin-richardson-a0078a113/' target='_blank' rel='noreferrer'>LinkedIn</a>
-            <a href='mailto:benjiwildcat@gmail.com'>Email: benjiwildcat@gmail.com</a>
-            <a href='tel:+12149011174'>Phone: 214-901-1174</a>
+          <div id='content' className={styles.info}>
+            <a className={styles.linkedin} href='https://www.linkedin.com/in/benjamin-richardson-a0078a113/' target='_blank' rel='noreferrer'>LinkedIn</a>
+            <span id='email'>Email: benjiwildcat@gmail.com</span>
+            <span id='phone'>Phone: 214-901-1174</span>
           </div>
-
         </div>
-
       </div>
     </div></>
 
