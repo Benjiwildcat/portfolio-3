@@ -1,9 +1,37 @@
-.about {
-    background-color: beige;
-    background-color: royalblue;
-    display: grid;
+/* :global(body) {
+    background-color: eggshell;
     grid-template-columns: 150px 150px;
-    text-align: center;
+    align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 120%;
+    font-size: 2px;
+} */
+
+.header {
+    color: coral;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    font-size: small;
+}
+
+.content {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    font-size: xx-large;
+    color: green;
+}
+
+.extra {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    font-size: xx-large;
+    color: red;
+
 }
